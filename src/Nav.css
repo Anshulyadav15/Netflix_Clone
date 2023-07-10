@@ -1,0 +1,26 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 48px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.navbar-dark {
+  background-color: #111;
+}
+.netflix-logo {
+  float: left;
+  padding-left: 20px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.netflix-avatar {
+  float: right;
+  padding-right: 20px;
+  width: 30px;
+  object-fit: cover;
+}
